@@ -1,0 +1,22 @@
+[project]
+name = "assignment1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Abdelwakil Benabdi"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.15"
+dependencies = [
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "numpy (>=2.3.4,<3.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "torch (>=2.9.0,<3.0.0)",
+    "torchvision (>=0.24.0,<0.25.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

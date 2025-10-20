@@ -1,0 +1,15 @@
+Epochs: 300
+Batch Size = 1024
+Model: ResNet18
+Architecture: SimCLR
+tau: 0.1
+Learning rate: lr=4e-3 (progressive)
+Normalization in the projection head 
+ 
+ ----------- In distribution analysis ----------- 
+KNN Accuracy: 38.12
+Linear Accuracy: 36.120000000000005
+
+ ----------- Out of distribution analysis ----------- 
+OOD KNN Accuracy: 24.4
+OOD Linear Accuracy: 30.15

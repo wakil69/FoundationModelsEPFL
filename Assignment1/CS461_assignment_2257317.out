@@ -1,0 +1,176 @@
+############################### START ##############################
+Batch size 1024
+Epoch 5/300, Train Loss: 2.1817, Validation Loss: 2.5335, Val kNN-5 Accuracy: 13.90%, Val linear Accuracy: 19.22%
+Epoch 10/300, Train Loss: 1.7218, Validation Loss: 2.0409, Val kNN-5 Accuracy: 18.44%, Val linear Accuracy: 23.82%
+Model checkpoint saved at checkpoints/model_epoch_10.safetensors
+Epoch 15/300, Train Loss: 1.4139, Validation Loss: 1.6459, Val kNN-5 Accuracy: 20.86%, Val linear Accuracy: 25.85%
+Epoch 20/300, Train Loss: 1.2750, Validation Loss: 1.6457, Val kNN-5 Accuracy: 22.01%, Val linear Accuracy: 27.44%
+Model checkpoint saved at checkpoints/model_epoch_20.safetensors
+Epoch 25/300, Train Loss: 1.1934, Validation Loss: 1.5175, Val kNN-5 Accuracy: 23.10%, Val linear Accuracy: 24.33%
+Epoch 30/300, Train Loss: 1.1426, Validation Loss: 1.4555, Val kNN-5 Accuracy: 24.93%, Val linear Accuracy: 29.32%
+Model checkpoint saved at checkpoints/model_epoch_30.safetensors
+Epoch 35/300, Train Loss: 1.0864, Validation Loss: 1.3315, Val kNN-5 Accuracy: 25.92%, Val linear Accuracy: 26.72%
+Epoch 40/300, Train Loss: 1.0533, Validation Loss: 1.3316, Val kNN-5 Accuracy: 27.28%, Val linear Accuracy: 31.28%
+Model checkpoint saved at checkpoints/model_epoch_40.safetensors
+Epoch 45/300, Train Loss: 1.0185, Validation Loss: 1.3264, Val kNN-5 Accuracy: 27.36%, Val linear Accuracy: 31.42%
+Epoch 50/300, Train Loss: 0.9890, Validation Loss: 1.3479, Val kNN-5 Accuracy: 27.36%, Val linear Accuracy: 31.72%
+Model checkpoint saved at checkpoints/model_epoch_50.safetensors
+Epoch 55/300, Train Loss: 0.9678, Validation Loss: 1.2105, Val kNN-5 Accuracy: 29.53%, Val linear Accuracy: 33.32%
+Epoch 60/300, Train Loss: 0.9459, Validation Loss: 1.1852, Val kNN-5 Accuracy: 29.92%, Val linear Accuracy: 29.25%
+Model checkpoint saved at checkpoints/model_epoch_60.safetensors
+Epoch 65/300, Train Loss: 0.9207, Validation Loss: 1.2623, Val kNN-5 Accuracy: 30.21%, Val linear Accuracy: 29.73%
+Epoch 70/300, Train Loss: 0.9072, Validation Loss: 1.1469, Val kNN-5 Accuracy: 31.11%, Val linear Accuracy: 29.98%
+Model checkpoint saved at checkpoints/model_epoch_70.safetensors
+Epoch 75/300, Train Loss: 0.8870, Validation Loss: 1.1886, Val kNN-5 Accuracy: 31.12%, Val linear Accuracy: 30.02%
+Epoch 80/300, Train Loss: 0.8759, Validation Loss: 1.1368, Val kNN-5 Accuracy: 31.92%, Val linear Accuracy: 30.73%
+Model checkpoint saved at checkpoints/model_epoch_80.safetensors
+Epoch 85/300, Train Loss: 0.8578, Validation Loss: 1.1310, Val kNN-5 Accuracy: 32.20%, Val linear Accuracy: 37.48%
+Epoch 90/300, Train Loss: 0.8411, Validation Loss: 1.1403, Val kNN-5 Accuracy: 32.99%, Val linear Accuracy: 36.92%
+Model checkpoint saved at checkpoints/model_epoch_90.safetensors
+Epoch 95/300, Train Loss: 0.8377, Validation Loss: 1.1128, Val kNN-5 Accuracy: 33.13%, Val linear Accuracy: 35.02%
+Epoch 100/300, Train Loss: 0.8196, Validation Loss: 1.0811, Val kNN-5 Accuracy: 33.58%, Val linear Accuracy: 35.47%
+Model checkpoint saved at checkpoints/model_epoch_100.safetensors
+Epoch 105/300, Train Loss: 0.8106, Validation Loss: 1.1083, Val kNN-5 Accuracy: 34.17%, Val linear Accuracy: 30.97%
+Epoch 110/300, Train Loss: 0.7976, Validation Loss: 1.0555, Val kNN-5 Accuracy: 34.08%, Val linear Accuracy: 38.01%
+Model checkpoint saved at checkpoints/model_epoch_110.safetensors
+Epoch 115/300, Train Loss: 0.7854, Validation Loss: 1.0683, Val kNN-5 Accuracy: 34.34%, Val linear Accuracy: 38.24%
+Epoch 120/300, Train Loss: 0.7771, Validation Loss: 1.0920, Val kNN-5 Accuracy: 34.27%, Val linear Accuracy: 38.25%
+Model checkpoint saved at checkpoints/model_epoch_120.safetensors
+Epoch 125/300, Train Loss: 0.7711, Validation Loss: 1.0692, Val kNN-5 Accuracy: 34.10%, Val linear Accuracy: 39.04%
+Epoch 130/300, Train Loss: 0.7616, Validation Loss: 1.0584, Val kNN-5 Accuracy: 35.05%, Val linear Accuracy: 33.31%
+Model checkpoint saved at checkpoints/model_epoch_130.safetensors
+Epoch 135/300, Train Loss: 0.7493, Validation Loss: 1.0562, Val kNN-5 Accuracy: 35.29%, Val linear Accuracy: 39.24%
+Epoch 140/300, Train Loss: 0.7397, Validation Loss: 1.0582, Val kNN-5 Accuracy: 35.77%, Val linear Accuracy: 33.62%
+Model checkpoint saved at checkpoints/model_epoch_140.safetensors
+Epoch 145/300, Train Loss: 0.7343, Validation Loss: 1.0319, Val kNN-5 Accuracy: 35.62%, Val linear Accuracy: 39.30%
+Epoch 150/300, Train Loss: 0.7260, Validation Loss: 1.0295, Val kNN-5 Accuracy: 35.46%, Val linear Accuracy: 33.77%
+Model checkpoint saved at checkpoints/model_epoch_150.safetensors
+Epoch 155/300, Train Loss: 0.7230, Validation Loss: 1.0724, Val kNN-5 Accuracy: 35.60%, Val linear Accuracy: 40.01%
+Epoch 160/300, Train Loss: 0.7072, Validation Loss: 1.0206, Val kNN-5 Accuracy: 35.98%, Val linear Accuracy: 32.70%
+Model checkpoint saved at checkpoints/model_epoch_160.safetensors
+Epoch 165/300, Train Loss: 0.7069, Validation Loss: 1.0031, Val kNN-5 Accuracy: 36.06%, Val linear Accuracy: 39.58%
+Epoch 170/300, Train Loss: 0.6978, Validation Loss: 1.0458, Val kNN-5 Accuracy: 36.33%, Val linear Accuracy: 34.49%
+Model checkpoint saved at checkpoints/model_epoch_170.safetensors
+Epoch 175/300, Train Loss: 0.6910, Validation Loss: 1.0024, Val kNN-5 Accuracy: 36.41%, Val linear Accuracy: 41.12%
+Epoch 180/300, Train Loss: 0.6883, Validation Loss: 0.9844, Val kNN-5 Accuracy: 36.98%, Val linear Accuracy: 41.01%
+Model checkpoint saved at checkpoints/model_epoch_180.safetensors
+Epoch 185/300, Train Loss: 0.6792, Validation Loss: 0.9904, Val kNN-5 Accuracy: 36.74%, Val linear Accuracy: 35.25%
+Epoch 190/300, Train Loss: 0.6756, Validation Loss: 0.9829, Val kNN-5 Accuracy: 36.92%, Val linear Accuracy: 35.03%
+Model checkpoint saved at checkpoints/model_epoch_190.safetensors
+Epoch 195/300, Train Loss: 0.6651, Validation Loss: 0.9895, Val kNN-5 Accuracy: 37.37%, Val linear Accuracy: 43.83%
+Epoch 200/300, Train Loss: 0.6611, Validation Loss: 0.9771, Val kNN-5 Accuracy: 37.14%, Val linear Accuracy: 35.05%
+Model checkpoint saved at checkpoints/model_epoch_200.safetensors
+Epoch 205/300, Train Loss: 0.6549, Validation Loss: 0.9605, Val kNN-5 Accuracy: 37.37%, Val linear Accuracy: 41.26%
+Epoch 210/300, Train Loss: 0.6527, Validation Loss: 0.9694, Val kNN-5 Accuracy: 37.05%, Val linear Accuracy: 35.08%
+Model checkpoint saved at checkpoints/model_epoch_210.safetensors
+Epoch 215/300, Train Loss: 0.6484, Validation Loss: 0.9669, Val kNN-5 Accuracy: 37.57%, Val linear Accuracy: 35.54%
+Epoch 220/300, Train Loss: 0.6448, Validation Loss: 0.9540, Val kNN-5 Accuracy: 37.41%, Val linear Accuracy: 41.01%
+Model checkpoint saved at checkpoints/model_epoch_220.safetensors
+Epoch 225/300, Train Loss: 0.6395, Validation Loss: 0.9486, Val kNN-5 Accuracy: 37.36%, Val linear Accuracy: 42.16%
+Epoch 230/300, Train Loss: 0.6382, Validation Loss: 0.9406, Val kNN-5 Accuracy: 37.62%, Val linear Accuracy: 36.24%
+Model checkpoint saved at checkpoints/model_epoch_230.safetensors
+Epoch 235/300, Train Loss: 0.6371, Validation Loss: 0.9606, Val kNN-5 Accuracy: 37.39%, Val linear Accuracy: 35.89%
+Epoch 240/300, Train Loss: 0.6263, Validation Loss: 0.9507, Val kNN-5 Accuracy: 37.52%, Val linear Accuracy: 41.58%
+Model checkpoint saved at checkpoints/model_epoch_240.safetensors
+Epoch 245/300, Train Loss: 0.6272, Validation Loss: 0.9428, Val kNN-5 Accuracy: 37.73%, Val linear Accuracy: 40.79%
+Epoch 250/300, Train Loss: 0.6230, Validation Loss: 0.9553, Val kNN-5 Accuracy: 37.99%, Val linear Accuracy: 41.47%
+Model checkpoint saved at checkpoints/model_epoch_250.safetensors
+Epoch 255/300, Train Loss: 0.6205, Validation Loss: 0.9401, Val kNN-5 Accuracy: 38.06%, Val linear Accuracy: 36.06%
+Epoch 260/300, Train Loss: 0.6227, Validation Loss: 0.9183, Val kNN-5 Accuracy: 37.84%, Val linear Accuracy: 41.95%
+Model checkpoint saved at checkpoints/model_epoch_260.safetensors
+Epoch 265/300, Train Loss: 0.6170, Validation Loss: 0.9354, Val kNN-5 Accuracy: 38.04%, Val linear Accuracy: 41.88%
+Epoch 270/300, Train Loss: 0.6158, Validation Loss: 0.9356, Val kNN-5 Accuracy: 38.06%, Val linear Accuracy: 42.90%
+Model checkpoint saved at checkpoints/model_epoch_270.safetensors
+Epoch 275/300, Train Loss: 0.6134, Validation Loss: 0.9110, Val kNN-5 Accuracy: 38.00%, Val linear Accuracy: 36.09%
+Epoch 280/300, Train Loss: 0.6135, Validation Loss: 0.9223, Val kNN-5 Accuracy: 37.97%, Val linear Accuracy: 40.34%
+Model checkpoint saved at checkpoints/model_epoch_280.safetensors
+Epoch 285/300, Train Loss: 0.6174, Validation Loss: 0.9219, Val kNN-5 Accuracy: 38.05%, Val linear Accuracy: 41.39%
+Epoch 290/300, Train Loss: 0.6099, Validation Loss: 0.9369, Val kNN-5 Accuracy: 38.07%, Val linear Accuracy: 43.72%
+Model checkpoint saved at checkpoints/model_epoch_290.safetensors
+Epoch 295/300, Train Loss: 0.6115, Validation Loss: 0.9119, Val kNN-5 Accuracy: 38.06%, Val linear Accuracy: 40.90%
+Epoch 300/300, Train Loss: 0.6140, Validation Loss: 0.9292, Val kNN-5 Accuracy: 38.12%, Val linear Accuracy: 36.01%
+Model checkpoint saved at checkpoints/model_epoch_300.safetensors
+✅ Saved: checkpoints/final_model.safetensors
+Training metrics saved to training_metrics.json
+✅ Saved visualization to figures/val_knn_predictions.png
+✅ Saved figure as visualize_predictions.png
+✅ Saved visualization to figures/ood_knn_predictions.png
+✅ Saved figure as ood_knn_predictions.png
+ ----------- In distribution analysis ----------- 
+KNN Accuracy: 38.12
+Linear Accuracy: 36.120000000000005
+
+ ----------- Out of distribution analysis ----------- 
+OOD KNN Accuracy: 24.4
+OOD Linear Accuracy: 30.15
+
+Results saved to final_accuracy_val_ood_results.txt
+✅ Saved: figures/training_loss.png
+✅ Saved: figures/validation_loss.png
+✅ Saved: figures/train_val_loss_combined.png
+✅ Saved: figures/val_knn_accuracy.png
+✅ Saved: figures/val_linear_accuracy.png
+✅ Saved: figures/val_linear_knn_combined.png
+✅ Saved visualization to figures/val_knn_predictions.png
+✅ Saved figure as visualize_predictions.png
+✅ Saved visualization to figures/ood_knn_predictions.png
+✅ Saved figure as ood_knn_predictions.png
+Running t-SNE embedding 
+[t-SNE] Computing 91 nearest neighbors...
+[t-SNE] Indexed 10000 samples in 0.008s...
+[t-SNE] Computed neighbors for 10000 samples in 0.206s...
+[t-SNE] Computed conditional probabilities for sample 1000 / 10000
+[t-SNE] Computed conditional probabilities for sample 2000 / 10000
+[t-SNE] Computed conditional probabilities for sample 3000 / 10000
+[t-SNE] Computed conditional probabilities for sample 4000 / 10000
+[t-SNE] Computed conditional probabilities for sample 5000 / 10000
+[t-SNE] Computed conditional probabilities for sample 6000 / 10000
+[t-SNE] Computed conditional probabilities for sample 7000 / 10000
+[t-SNE] Computed conditional probabilities for sample 8000 / 10000
+[t-SNE] Computed conditional probabilities for sample 9000 / 10000
+[t-SNE] Computed conditional probabilities for sample 10000 / 10000
+[t-SNE] Mean sigma: 0.252102
+[t-SNE] KL divergence after 250 iterations with early exaggeration: 95.503754
+[t-SNE] KL divergence after 1000 iterations: 2.769413
+✅ Saved t-SNE plot to figures/tsne_embeddings_val.png
+Running t-SNE embedding 
+[t-SNE] Computing 91 nearest neighbors...
+[t-SNE] Indexed 2000 samples in 0.002s...
+[t-SNE] Computed neighbors for 2000 samples in 0.020s...
+[t-SNE] Computed conditional probabilities for sample 1000 / 2000
+[t-SNE] Computed conditional probabilities for sample 2000 / 2000
+[t-SNE] Mean sigma: 0.285780
+[t-SNE] KL divergence after 250 iterations with early exaggeration: 78.075363
+[t-SNE] KL divergence after 1000 iterations: 1.948725
+✅ Saved t-SNE plot to figures/tsne_embeddings_ood.png
+Running t-SNE embedding...
+[t-SNE] Computing 91 nearest neighbors...
+[t-SNE] Indexed 10000 samples in 0.012s...
+[t-SNE] Computed neighbors for 10000 samples in 0.159s...
+[t-SNE] Computed conditional probabilities for sample 1000 / 10000
+[t-SNE] Computed conditional probabilities for sample 2000 / 10000
+[t-SNE] Computed conditional probabilities for sample 3000 / 10000
+[t-SNE] Computed conditional probabilities for sample 4000 / 10000
+[t-SNE] Computed conditional probabilities for sample 5000 / 10000
+[t-SNE] Computed conditional probabilities for sample 6000 / 10000
+[t-SNE] Computed conditional probabilities for sample 7000 / 10000
+[t-SNE] Computed conditional probabilities for sample 8000 / 10000
+[t-SNE] Computed conditional probabilities for sample 9000 / 10000
+[t-SNE] Computed conditional probabilities for sample 10000 / 10000
+[t-SNE] Mean sigma: 0.252102
+[t-SNE] KL divergence after 250 iterations with early exaggeration: 95.503754
+[t-SNE] KL divergence after 1000 iterations: 2.787619
+✅ Saved t-SNE plot to figures/tsne_20_embeddings_val.png
+Running t-SNE embedding...
+[t-SNE] Computing 91 nearest neighbors...
+[t-SNE] Indexed 2000 samples in 0.003s...
+[t-SNE] Computed neighbors for 2000 samples in 0.020s...
+[t-SNE] Computed conditional probabilities for sample 1000 / 2000
+[t-SNE] Computed conditional probabilities for sample 2000 / 2000
+[t-SNE] Mean sigma: 0.285780
+[t-SNE] KL divergence after 250 iterations with early exaggeration: 78.075363
+[t-SNE] KL divergence after 1000 iterations: 1.947031
+✅ Saved t-SNE plot to figures/tsne_20_embeddings_ood.png
+############################### END ##############################
+TOTAL Time taken: 250.68 minutes
+TOTAL Time taken: 4.18 hours
