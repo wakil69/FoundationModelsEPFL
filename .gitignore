@@ -1,2 +1,4 @@
 .venv
 Assignment1/final_model.safetensors
+Assignment2/part1/pseudo_labeled_corrupted.pkl
+Assignment2/part1/ckpts

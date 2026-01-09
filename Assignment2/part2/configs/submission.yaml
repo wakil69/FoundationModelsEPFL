@@ -1,0 +1,12 @@
+model:
+  class_path: models.submission.Submission
+  args:
+    embed_dim: 3072
+    num_classes: 7
+    hidden_dim: 512
+    
+  best_weight_path: ckpts/best_MLP_model.pt
+
+dataset:
+  collate_fn: models.submission.submission_collate_fn
+

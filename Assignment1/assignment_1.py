@@ -96,11 +96,6 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 # This is **required for automatic grading**.  
 # If you do **not** provide this information, you will receive **0️⃣ (zero)** for this assignment. 
 
-# %%
-SCIPER = 404588  # Replace with your SCIPER number
-LAST_NAME = "El Houjjaji"  # Replace with your last name
-FIRST_NAME = "Chaimae"  # Replace with your first name
-
 # %% [markdown]
 # ## 1. Datasets & Utilities
 
@@ -303,7 +298,7 @@ def evaluation_step(model, val_loader_plain, device="cuda", knn_k=5):
 
 # %%
 def custom_loss_function(z1, z2, tau=0.1):
-    #z1, z2 = F.normalize(z1, dim=-1), F.normalize(z2, dim=-1) # added by Chaimae to test --> did not improove much 
+    #z1, z2 = F.normalize(z1, dim=-1), F.normalize(z2, dim=-1) # to test --> did not improove much 
     B, d = z1.shape
     z = torch.cat([z1, z2], dim=0)           
     sim = (z @ z.t()) / tau                     
@@ -330,7 +325,7 @@ def lr_lambda(epoch):
 
 # %%
 
-optimizer = torch.optim.AdamW(model.parameters(), lr=4e-3, weight_decay=1e-4) # changed by Chaimae,  it used to be: lr=0.6, weight_decay=0) --> made a big change in the accuracy
+optimizer = torch.optim.AdamW(model.parameters(), lr=4e-3, weight_decay=1e-4) # changed,  it used to be: lr=0.6, weight_decay=0) --> made a big change in the accuracy
 lr_scheduler = torch.optim.lr_scheduler.LambdaLR(optimizer, lr_lambda)
 
 # %% [markdown]

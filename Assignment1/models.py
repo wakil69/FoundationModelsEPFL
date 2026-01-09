@@ -55,7 +55,7 @@ class ImageEncoder(nn.Module):
         Normalizes a batch of feature vectors.
         """
         return x / (x.norm(dim=-1, keepdim=True) + eps)
-        #return F.normalize(x, dim=-1) # Added by Chaimae to test 
+        #return F.normalize(x, dim=-1) # to test 
         
     def forward(self, x):
         """

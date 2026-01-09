@@ -1,0 +1,16 @@
+tta:
+  name: submission
+  class_path: tta.submission.Submission
+  args:
+    lr: 0.0006
+    momentum: 0.9
+
+model:
+  class_path: models.load_base_model
+  args:
+    ckpt_path: ckpts/resnet50_best_corrupted_0.85_2381318.pt
+
+evaluation:
+  batch_size: 128
+  device: cuda
+  max_batches: null
